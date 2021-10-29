@@ -32,34 +32,6 @@ public class SList<T> {
         if (currNode == null) {
             System.out.println(key + " not found");
         }
-
-        /*SNode<T> prev = new SNode<>(null);
-        prev.next = head;
-        SNode<T> next = head.next;
-        SNode<T> temp = head;
-        boolean exists = false;
-        if (head.data == key) {
-            head = head.next;
-            exists = true;
-        }
-        while (temp.next != null) {
-            if (String.valueOf(temp.data).equals(String.valueOf(key))) {
-                prev.next = next;
-                exists = true;
-                break;
-            }
-            prev = temp;
-            temp = temp.next;
-            next = temp.next;
-        }
-        if (exists == false && String.valueOf(temp.data).equals(String.valueOf(key))) {
-            prev.next = null;
-            exists = true;
-        }
-        if (!exists) {
-            System.out.println(
-                    "Given Value is not present in linked list");
-        }*/
     }
     public String toString()
     {
